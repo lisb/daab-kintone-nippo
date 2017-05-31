@@ -1,5 +1,5 @@
 # Description:
-#   キントウンの日報アプリにデータを投稿します。
+#   kintoneの日報アプリにデータを投稿します。
 # 
 # Dependencies:
 #   None
@@ -183,7 +183,7 @@ msgInputMemo =
 
 msgEndNippo = (msg, record) ->
   [
-    "業務報告をキントウンに書き込みました。"
+    "業務報告をkintoneに書き込みました。"
     "#{endpoint.replace('/v1', '/'+appId)}/show#record=#{record.レコード番号.value}"
     "#{userName(msg)}さん、本日の業務、お疲れ様でした。"
   ].join("\n")
